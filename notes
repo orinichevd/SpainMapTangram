@@ -1,0 +1,18 @@
+INP: add path
+    DONE: convert to geojson
+    INP: import path 1
+    TODO: import path 2
+TODO: add towns and points
+TODO: stylize
+TODO: add icons
+    TODO: 12 euro amer
+    TODO: finiks
+    TODO: girona
+    TODO: lighthouse in SanFelio
+    TODO: chirch in volcano
+
+
+SOURCES AND LINKS
+tangram doc https://tangrams.readthedocs.io/en/master/Syntax-Reference/sources/
+gpx to geojson converter https://products.aspose.app/gis/conversion/gpx-to-geojson
+geojson viewer http://geojson.io/#map=11/42.0661/2.6291
