@@ -19,7 +19,7 @@ sources:
         max_zoom: 16
     path_olot_girona:
         type: GeoJSON
-        url: http://localhost:8000/assets/path1.geojson
+        url: http://localhost:8080/assets/path1.geojson
 
 layers:
     earth:
@@ -59,7 +59,7 @@ layers:
             draw:
                 lines:
                     order: function() { return feature.sort_rank; }
-                    color: '#cc6666'
+                    color: '#000066'
                     width: 12
                     outline:
                         color: grey
@@ -72,6 +72,14 @@ layers:
                     order: function() { return feature.sort_rank; }
                     color: lightgrey
                     width: 5
+    velo:
+        data: 
+            source: path_olot_girona
+        draw: 
+            lines:
+                order: 100
+                color: '#000000'
+                width: [[7, .5px], [9, 1px], [14, 5px]]
 
     buildings:
         data: { source: nextzen }
