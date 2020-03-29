@@ -20,6 +20,9 @@ sources:
     path_olot_girona:
         type: GeoJSON
         url: http://localhost:8080/assets/path1.geojson
+    path_girona_sanfelio:
+        type: GeoJSON
+        url: http://localhost:8080/assets/path2.geojson
 
 layers:
     earth:
@@ -72,10 +75,19 @@ layers:
                     order: function() { return feature.sort_rank; }
                     color: lightgrey
                     width: 5
-    velo:
+    path1:
         data: 
             source: path_olot_girona
         draw: 
+            lines:
+                order: 100
+                color: '#000000'
+                width: [[7, .5px], [9, 1px], [14, 5px]]
+
+    path2:
+        data:
+            source: path_girona_sanfelio
+        draw:
             lines:
                 order: 100
                 color: '#000000'

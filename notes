@@ -1,8 +1,8 @@
 INP: add path
     DONE: convert to geojson
     DONE: import path 1
-    INP: import path 2
-TODO: add towns and points
+    DONE: import path 2
+TODO: add town names and points
 TODO: stylize
 TODO: add icons
     TODO: 12 euro amer
