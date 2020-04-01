@@ -105,8 +105,8 @@ layers:
                         h = Math.max(h, .4); // min brightness: .4
                         return [h, h, h];
                     }
-        3d-buildings:
-            filter: { $zoom: { min: 15 } }
-            draw:
-                polygons:
-                    extrude: function () { return feature.height > 20 || $zoom >= 16; }
+        #3d-buildings:
+        #    filter: { $zoom: { min: 5 } }
+        #    draw:
+        #        polygons:
+        #            extrude: function () { return feature.height > 20 || $zoom >= 16; }

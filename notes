@@ -1,9 +1,17 @@
-INP: add path
+DONE: add path
     DONE: convert to geojson
     DONE: import path 1
     DONE: import path 2
 TODO: add town names and points
-TODO: stylize
+INP: add 3d heights
+    INP: port 3d from https://github.com/tangrams/terrain-demos/blob/master/styles/contours.yaml
+    TODO: stylize 3d contours
+INP: stylize   
+    TODO: higlight rivers
+    TODO: higlight towns
+    TODO: higlight roads
+    TODO: stylize path
+    TODO: stylize ground
 TODO: add icons
     TODO: 12 euro amer
     TODO: finiks
@@ -16,3 +24,4 @@ SOURCES AND LINKS
 tangram doc https://tangrams.readthedocs.io/en/master/Syntax-Reference/sources/
 gpx to geojson converter https://products.aspose.app/gis/conversion/gpx-to-geojson
 geojson viewer http://geojson.io/#map=11/42.0661/2.6291
+height map: https://github.com/tangrams/terrain-demos/blob/master/styles/contours.yaml
