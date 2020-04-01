@@ -4,7 +4,7 @@ DONE: add path
     DONE: import path 2
 TODO: add town names and points
 INP: add 3d heights
-    INP: port 3d from https://github.com/tangrams/terrain-demos/blob/master/styles/contours.yaml
+    DONE: port 3d from https://github.com/tangrams/terrain-demos/blob/master/styles/contours.yaml
     TODO: stylize 3d contours
 INP: stylize   
     TODO: higlight rivers
